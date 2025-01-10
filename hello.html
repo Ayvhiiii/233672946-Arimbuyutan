@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #fff2cc;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #ce7e00;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 4px solid #fff;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1rem;
+        }
+
+        .contact {
+            margin-top: 10px;
+        }
+
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section h2 {
+            color: #bf9000;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            border-bottom: 4px dashed #bf9000;
+            padding-bottom: 5px;
+      		width: 250px;
+      		margin: auto;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .job,
+        .project,
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .job-title,
+        .project-title,
+        .degree {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .job-company,
+        .school-name {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-item {
+            background: #bf9000;
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section with Profile Picture -->
+        <header>
+            <img src="C:\Users\S312User\Downloads\RISUME\286190356_1741015212909868_7523203849279184579_n-1" alt="Profile Picture">
+            <div>
+                <h1>Miguel IV C. Arimbuyutan</h1>
+              <b>Developer | Network Engineer | Chief Network Security Engineer</b>
+                <p>Email: <a href="https://mail.google.com/mail/u/0/#inbox" style="color: #E3F8FF;">kalabosomamamo@gmail.com</a> | Phone: 09123215612 </p>
+                <div class="contact">
+                    <a href="https://facebook.com/"  target="_blank">Facebook</a>
+                    <a href="https://discord.com/" target="_blank">Discord</a>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <div class="section">
+            <h2>Summary</h2>
+            <p>I am a App Developer and a Network Engineer, specializing in Network and Security. Proven track record of delivering successful Network Design and Deployment.</p>
+        </div>
+
+        <!-- Work Experience Section -->
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <p class="job-title">Network Associate</p>
+                <p class="job-company">Jayson's Company | January 7,2025 - January-7, 2035</p>
+                <p>• To assist within the network sector of the company</p>
+            </div>
+            <div class="job">
+                <p class="job-title">Head Network Security Officer</p>
+                <p class="job-company">Jayson's Company | January 7,2035 - January-7, 2045</p>
+                <p>• To supervise the company's network security</p>
+                
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <p class="degree">Bachelor of Science in Information Technology Major in Network and Security Track</p>
+                <p class="school-name">University of the Cordilleras | 2027</p>
+                <p>Dean Lister</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2> <br>
+            <div style='width:203px;margin:auto' class="skills">
+                <span class="skill-item">HTML</span>
+                <span class="skill-item">Python</span>
+                <span class="skill-item">SQL</span>
+                <span class="skill-item">JAVA</span>
+                <span class="skill-item">PHP</span>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <p class="project-title">Project Name</p>
+                <p>Lorem Ipsum</p>
+            </div>
+            <div class="project">
+                <p class="project-title">Project Name</p>
+                <p>Lorem Ipsum</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
