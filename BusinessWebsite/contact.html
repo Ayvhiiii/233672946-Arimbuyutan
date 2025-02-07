@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HelpingHand Inc.</title>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+    <nav>
+        <div class="logo">HelpingHand Inc.</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-container">
+        <div class="contact-info">
+            <h2>Our Contact Details</h2>
+            <p><strong>Email:</strong> DGJIHelpingHand@yahoo.com</p>
+            <p><strong>Phone:</strong> +63 991 564 7870</p>
+            <p><strong>Address:</strong> 123 Business St, Metro City, Philippines</p>
+
+            <!-- Map inside contact-info -->
+            <br>
+            <h3>Find Us Here</h3>
+            <div id="map"></div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="index.html" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 HelpingHand. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

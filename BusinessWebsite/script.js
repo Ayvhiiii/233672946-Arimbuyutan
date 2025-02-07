@@ -25,3 +25,18 @@ setInterval(nextSlide, 15000);
 
 // Show the first slide initially
 showSlide(currentIndex);
+
+
+// Function to load an offline map (Leaflet.js Example)
+document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('map').setView([14.5995, 120.9842], 12); // Metro Manila Coordinates
+
+    // Use an offline tile server or pre-downloaded tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    L.marker([14.5995, 120.9842]).addTo(map)
+        .bindPopup('HelpingHand Inc.')
+        .openPopup();
+});
